@@ -43,7 +43,7 @@ def naive(text, pattern):
     return count, contexts
 
 if __name__ == '__main__':
-    with open('vim.txt', 'r', encoding='utf-8') as f:
+    with open('war_and_peace.txt', 'r', encoding='utf-8') as f:
         text = f.read()
 
     names = ['Анна Павловна', 'Пьер Безухов', 'Андрей Болконский',
